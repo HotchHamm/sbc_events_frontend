@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../../components/Header.jsx";
-import "./Register.css";
 
 export default function RegisterSelect() {
   return (
@@ -19,17 +18,17 @@ export default function RegisterSelect() {
             </p>
 
             <div className="d-flex justify-content-center">
-              <div className="link-div d-flex justify-content-center">
+              <div className="register-link-container d-flex justify-content-center">
                 <Link to="/register/student" className="btn register-link">
                   Student
                 </Link>
               </div>
-              <div className="link-div d-flex justify-content-center">
+              <div className="register-link-container d-flex justify-content-center">
                 <Link to="/register/parent" className="btn register-link">
                   Parent
                 </Link>
               </div>
-              <div className="link-div d-flex justify-content-center">
+              <div className="register-link-container d-flex justify-content-center">
                 <Link to="/register/volunteer" className="btn register-link">
                   Volunteer
                 </Link>

@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import Login from "../components/Login.jsx";
+import Dashboard from "../pages/Dashboard/Dashboard.jsx";
 import Home from "../pages/Home.jsx";
+import Login from "../components/Login.jsx";
 import Register from "../pages/Register/Register.jsx";
 import RegisterParent from "../pages/Register/RegisterParent.jsx";
 import RegisterStudent from "../pages/Register/RegisterStudent";
@@ -11,6 +12,7 @@ export default function Routing() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="dashboard" element={<Dashboard />} />
         <Route path="login" element={<Login />} />
         <Route path="register">
           <Route index element={<Register />} />

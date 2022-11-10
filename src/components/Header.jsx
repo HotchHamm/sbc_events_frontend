@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 import sbcLogo from "../assets/sbcLogo.png";
-import "./Header.css";
 
 export default function Header() {
   return (
-    <div className="d-flex justify-content-between header">
+    <div className="d-flex justify-content-between bg-gray">
       <div className="">
         <Link to="/" className="link-secondary">
           <img
@@ -15,6 +14,13 @@ export default function Header() {
         </Link>
       </div>
       <div className="mt-3 me-3">
+        <Link
+          to="/dashboard"
+          type="button"
+          className="btn btn-link btn-header fw-bold"
+        >
+          Dashboard
+        </Link>
         <Link
           to="/login"
           type="button"

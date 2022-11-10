@@ -3,7 +3,7 @@ import Header from "./Header";
 
 export default function Login() {
   return (
-    <div className="login__bg min-vh-100">
+    <div className="bg-off-white min-vh-100">
       <Header />
       <div className="d-flex p-5">
         <div className="col-10 col-md-6 bg-white shadow rounded mx-auto p-5">
@@ -23,7 +23,7 @@ export default function Login() {
                 aria-label="password"
               />
               <button
-                className="btn btn-login me-md-2 w-100 mt-4"
+                className="btn bg-green w-100 me-md-2 mt-4"
                 type="submit"
               >
                 Sign in

@@ -7,7 +7,7 @@ export default function Home() {
         <Header />
         <div className="d-flex align-items-center px-5">
           <div className="title-container">
-            <h1 className="h1 ">SPORTS BIZ CAMPS</h1>
+            <h1 className="homepage-title">SPORTS BIZ CAMPS</h1>
             <p className="description">
               Changing the lives of underrepresented high school and college
               students through the sports business.

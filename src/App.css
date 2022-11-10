@@ -2,6 +2,7 @@
   --gray: rgba(64, 64, 64, 1);
   --green: rgba(189, 220, 215, 1);
   --blue: rgba(54, 67, 84, 1);
+  --off-white: #e5e5e5;
   --text-gray: #212529;
 
   --title-font: "Lora", serif;
@@ -20,25 +21,101 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
+/*
+
+Colors
+
+*/
+
+.bg-gray {
+  background-color: var(--gray);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-off-white {
+  background-color: var(--off-white);
+}
+
+.text-gray {
+  background-color: var(--text-gray);
+}
+
+/*
+
+Buttons
+
+*/
+
+.btn-header:hover {
+  color: var(--green);
+}
+
 .btn-link {
   font-size: 1.1rem;
   text-decoration: none;
   color: white;
 }
 
-.title-container {
-  margin: 12rem auto;
+/*
+
+Global
+
+*/
+
+.page-title {
+  font-family: "Lora", serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
-.h1 {
+.subtitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/* 
+
+Header 
+
+*/
+
+.header-logo {
+  width: 4rem;
+  margin: 0.5rem;
+}
+
+/* 
+
+Dashboard
+
+*/
+
+.dashboard {
+  background-color: var(--gray);
+}
+
+/*
+
+Home page
+
+*/
+
+.homepage-title {
   color: var(--green);
   font-size: 6rem;
   font-weight: 800;
 }
 
-.btn-login {
-  width: 100%;
-  background-color: var(--green);
+.title-container {
+  margin: 12rem auto;
 }
 
 .description {
@@ -48,15 +125,20 @@ input[type="number"] {
   text-transform: uppercase;
 }
 
-.login__bg {
-  background-color: #e5e5e5;
+/*
+
+Register
+
+*/
+
+.register-link-container {
+  background-color: var(--green);
+  height: 6rem;
+  margin: 5px;
+  width: 14rem;
 }
 
-.navbar-brand__sign-in {
-  color: var(--text-gray);
-  font-size: 22px;
-  font-weight: 700;
-  font-family: "Lora", serif;
-  font-family: "Roboto", sans-serif;
-  margin-top: 2rem;
+.register-link {
+  font-size: 1.3rem;
+  font-weight: 500;
 }

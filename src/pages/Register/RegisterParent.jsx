@@ -12,11 +12,10 @@ export default function RegisterParent() {
   return (
     <>
       <Header />
-
-      <div className="min-vh-100 d-flex flex-row sign-up__main p-md-5">
-        <div className="container container-main p-5 col-12 col-lg-8 shadow rounded bg-white">
+      <div className="min-vh-100 d-flex flex-row sign-up__main">
+        <div className="container container-main p-5 col-12 col-lg-8">
           <div className="container my-5">
-            <h1 className="text-center">Register a new account</h1>
+            <h1 className="text-center page-title">Register a new account</h1>
           </div>
 
           <h3 className="fs-6 fw-bold mb-3">Personal info</h3>
